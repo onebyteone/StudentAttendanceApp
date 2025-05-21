@@ -23,7 +23,7 @@ La aplicación actualmente soporta el registro de matrículas de estudiantes con
 
 1. Clona este repositorio:
    ```
-   git clone https://github.com/yourusername/StudentAttendanceApp.git
+   git clone https://github.com/onebyteone/StudentAttendanceApp.git
    ```
 
 2. Abre el proyecto en Android Studio
