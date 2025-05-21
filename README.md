@@ -1,23 +1,24 @@
-# 📚 StudentAttendanceApp
+# ✅ StudentAttendanceApp
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Platform](https://img.shields.io/badge/Platform-Android-green.svg)](https://www.android.com/)
 [![Language](https://img.shields.io/badge/Language-Kotlin-blue.svg)](https://kotlinlang.org/)
 
-Una aplicación móvil Android sencilla para registrar y gestionar la asistencia de estudiantes.
+Una aplicación Android para registrar y gestionar la asistencia de estudiantes.
 
 ## 📋 Descripción
 
-StudentAttendanceApp es una aplicación Android desarrollada en Kotlin que permite a profesores y administradores educativos registrar y hacer seguimiento de la asistencia de estudiantes de manera fácil y eficiente.
+StudentAttendanceApp es una aplicación Android desarrollada en Kotlin diseñada para facilitar el registro diario de asistencia de estudiantes. La aplicación permite a profesores y administradores educativos registrar la presencia de estudiantes en diferentes cursos y fechas, ofreciendo una alternativa digital al tradicional registro en papel.
 
-La aplicación actualmente soporta el registro de matrículas de estudiantes con información básica como código, nombres, correo electrónico y dirección.
+Este proyecto es ideal para instituciones educativas que buscan modernizar sus procesos de control de asistencia y mantener registros precisos de la participación de los estudiantes.
 
 ## ✨ Características
 
-- **Registro de estudiantes**: Formulario intuitivo para ingresar datos del estudiante
-- **Validación de campos**: Verificación de campos obligatorios para evitar datos incompletos
-- **Interfaz sencilla**: Diseño limpio y fácil de usar
-- **Confirmación visual**: Alertas de confirmación al registrar datos correctamente
+- **Formulario de asistencia**: Interfaz intuitiva para registrar la asistencia de estudiantes
+- **Registro por curso**: Organización de asistencia por asignatura o curso
+- **Seguimiento por fecha**: Control temporal de asistencias
+- **Validación de datos**: Verificación de campos obligatorios
+- **Confirmación visual**: Diálogo de resumen con datos registrados
 
 ## 🚀 Instalación
 
@@ -41,25 +42,42 @@ La aplicación actualmente soporta el registro de matrículas de estudiantes con
 - **Kotlin**: Lenguaje de programación principal
 - **XML**: Diseño de interfaces de usuario
 - **AndroidX**: Bibliotecas de soporte para componentes de la interfaz
+- **AlertDialog**: Para mostrar confirmaciones al usuario
 
 ## 📝 Uso
 
 1. Inicia la aplicación
-2. Completa el formulario con los datos del estudiante:
+2. Completa el formulario de asistencia con:
    - Código del alumno
-   - Nombres
-   - Correo electrónico
-   - Dirección
-3. Presiona el botón "GUARDAR"
-4. Verifica la información en el diálogo de confirmación
+   - Nombres del alumno
+   - Fecha de asistencia (formato: dd/mm/aaaa)
+   - Curso o asignatura
+3. Presiona el botón "REGISTRAR ASISTENCIA"
+4. Se mostrará un diálogo de confirmación con los datos registrados
+
+## 📊 Beneficios
+
+- **Mayor precisión**: Reduce errores en el registro manual de asistencia
+- **Ahorro de tiempo**: Digitaliza el proceso de toma de asistencia
+- **Organización**: Mantiene registros digitales fáciles de consultar
+- **Análisis de datos**: Base para futuros reportes de asistencia y participación
 
 ## 🔜 Próximas mejoras
 
-- Almacenamiento persistente de datos con SQLite o Room
-- Listado de estudiantes registrados
-- Funcionalidad para marcar asistencia diaria
-- Generación de reportes de asistencia
-- Filtros de búsqueda de estudiantes
+- Almacenamiento persistente con SQLite o Room
+- Lista de estudiantes para selección rápida
+- Calendario integrado para selección de fechas
+- Generación de reportes y estadísticas de asistencia
+- Exportación de datos a formatos CSV o PDF
+- Sincronización con servicios en la nube
+- Modo fuera de línea para zonas sin conexión
+
+## 👨‍🏫 Casos de uso
+
+- **Escuelas y colegios**: Control diario de asistencia por salón
+- **Universidades**: Registro de asistencia por curso y facultad
+- **Academias**: Control de participación en talleres y cursos
+- **Capacitaciones empresariales**: Seguimiento de asistencia de empleados
 
 ## 🤝 Contribuciones
 
